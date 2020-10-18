@@ -40,7 +40,9 @@ body {
     color: lighten($color-dark, 20%);
   }
 }
-
+a {
+  text-decoration: none;
+}
 /* Layout */
 
 .wrapper {
@@ -85,6 +87,21 @@ body {
   }
 }
 
+.tag-size-1 {
+  font-size: 16px;
+}
+.tag-size-2 {
+  font-size: 18px;
+}
+.tag-size-3 {
+  font-size: 20px;
+}
+.tag-size-4 {
+  font-size: 22px;
+}
+.tag-size-5 {
+  font-size: 24px;
+}
 .list-horizontal {
   li {
     display: inline-block;
